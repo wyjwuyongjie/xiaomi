@@ -1,0 +1,207 @@
+/*顶部LOGO*/
+*{
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+#header1{
+	width:100%;
+	height: 110px;
+	box-shadow:0 1px 10px rgba(0,0,0,.2);
+}
+#header1 .Top_Logo{
+	width: 1210px;
+	height: 76px;
+	margin: 0 auto;
+	
+}
+#header1 .Top_Logo a.logo1{
+	background: url(../img/enter/icon.png) 0 0 no-repeat;
+	width: 160px;
+	height:50px;
+	margin-top: 24px;
+	display: inline-block;
+	float: left;
+}
+#header1 .Top_Logo .p1{
+	float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    padding-left: 30px;
+    margin-top: 34px;
+}
+#header1 .Top_Logo .hadaccount{
+	font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+#header1 .Top_Logo .hadaccount a{
+	color:#333;
+}
+/*顶部LOGO over*/
+/*主体*/
+#mainBody{
+	width: 1210px;
+	height: 623px;
+	margin: 0px 69.5px;
+}
+#mainBody .main2{
+	width: 830px;
+	height:623px;
+	margin: 60px 190px;	
+
+}
+#mainBody .main2 .oneBox{
+	width: 400px;
+	height: 623px;
+	float: left;
+}
+#mainBody .main2 .twoBox{
+	width: 190px;
+	height: 605px;
+	border-left: 1px solid #BDBDBD;
+	margin-left:104px;
+	padding-left: 90px;
+	float: left;
+}
+#mainBody .main2 .oneBox .inp{
+	width: 398px;
+	height: 52px;
+	border: 1px solid #bdbdbd;
+}
+#mainBody .main2 .oneBox .inp .l1{
+	width: 90px;
+	height: 52px;
+	padding-left: 20px;
+	color: #666;
+	font-size: 14px;
+	line-height: 52px;
+	float: left;
+}
+#mainBody .main2 .oneBox .inp input{
+	border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+    float: left;
+    outline: none;
+}
+#mainBody .main2 .oneBox .inp button{
+    width: 110px;
+    height: 52px;
+    border: none;
+    background: #f2f2f2;
+    color: #333;
+    padding: 0;
+}
+#mainBody .main2 .oneBox .sp{
+	height: 27px;
+	padding-top:5px ;
+	font-size: 12px;
+	color: #c5c5c5;
+	text-align: right;
+}
+#mainBody .main2 .oneBox .sp,.contract a{
+	color:#38f;
+}
+#mainBody .main2 .oneBox .contract{
+	font-size: 12px;
+	color:#333;
+	width: 400px;
+	height:21px;
+	line-height: 21px;
+}
+#mainBody .main2 .oneBox .immediately{
+	width: 388px;
+	height: 52px;
+	padding: 0 6px;
+	color: #FFFFFF;
+	background: #e22;line-height: 52px;
+	text-align:center  ;
+}
+#mainBody .main2 .twoBox .enterprise{
+	width: 160px;
+	height: 60px;
+	margin-left: 30px;
+	border-bottom: 1px solid #ddd;
+}
+#mainBody .main2 .twoBox .enterprise a i{
+	background: url(../img/enter/icon.png) 0 -50px no-repeat;
+	width: 30px;
+	height: 29px;
+	display: inline-block;
+	float: left;
+}
+#mainBody .main2 .twoBox .enterprise a{
+	width: 160px;
+	height: 30px;
+	float: left;
+	color: #666;
+}
+#mainBody .main2 .twoBox .enterprise a span{
+	line-height: 30px;
+	height: 30px;
+	float: left;
+	padding-left:20px ;
+	font-size: 14px;
+}
+#mainBody .main2 .twoBox  a span:hover{
+	font-weight: bolder;
+}
+#mainBody .main2 .twoBox .international{
+	width: 160px;height: 40px;
+	margin: 30px 0 0 30px;
+}
+#mainBody .main2 .twoBox .international a{
+	width: 170px;
+	height: 40px;
+	float: left;
+}
+#mainBody .main2 .twoBox .international a i{
+	background: url(../img/enter/icon.png) -50px -50px no-repeat;
+	float: left;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 7px 15px 0 0;
+}
+#mainBody .main2 .twoBox .international a span{
+	height: 42px;
+	width: 115px;
+	float: left;
+	font-size: 14px;
+}
+#mainBody .lastOne{
+	border-top: 1px solid #e6e6e6; 
+	height: 118px;
+	width: 100%;
+}
+#mainBody .lastOne .navigation{
+	width: 1210px;
+	height: 21px;
+	padding: 30px 0 15px 0;
+	margin: 0 auto;
+	color: #999999;
+	text-align: center;
+}
+#mainBody .lastOne .navigation a{
+	margin: 0 10px;
+	font-size: 12px;
+	display: inline-block;
+	
+}
+#mainBody .lastOne .Copyright{
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+}
+/*主体over*/

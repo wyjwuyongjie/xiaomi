@@ -1,0 +1,208 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+/*LOGO*/
+.l{
+	width: 990px;
+	margin: 0 auto;
+}
+.logo{
+	position: relative;
+	width:300px;
+	margin: 10px 0;
+	height: 60px;	
+	float: left;
+}
+.logo b{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	display: block;
+	width: 100px;
+	height: 40px;
+}
+.l a.why{
+	color: #666666;
+	position: relative;
+	float: right;
+	top: 52px;
+	font-size: 13px;
+	height: 18px;
+	line-height: 18px;
+}
+.l a.why i{
+	background:url(../img/enter/q-icon.png) no-repeat; ;
+	display: inline-block;
+	width:18px;
+	height: 14px;
+	margin:0 5px;
+	overflow: hidden;
+}
+.dk{
+	clear: both;
+	position:relative;
+	z-index: 5;
+}
+.bg_img{
+	height: 475px;
+	position: relative;
+	margin: 10px 0 20px;
+	background-color: #e93854;
+}
+.bg_img .img1{
+	z-index: 3;
+	position: absolute;
+	background-image: url(../img/enter/5731b427N2a98cb75.png);
+	width: 990px;
+	height: 475px;
+} 
+.cc{
+	width: 990px;
+	margin: 0 auto;
+}
+.dk .bg_img .login1{
+	width: 346px;
+	overflow: visible;
+	z-index: 4;
+	background: #FFFFFF;
+	position: relative;
+	float: right;
+	top: 40px;
+}
+.erweima1,.zhdl{
+	width: 170px;
+	height: 54px;
+	display: inline-block;
+	border-bottom:1px solid #ccc;
+	text-align: center;
+	line-height: 54px;
+	font-size:20px;
+}
+
+.dk .bg_img .login1 .erweima1 a.p1{
+	color: #666;
+}
+.dk .bg_img .login1 .zhdl a.p2{	
+	color:#e4393c;	
+	font-weight: bolder;	
+}
+.dk .bg_img .login1 a:hover{
+	
+	color:#e4393c;
+}
+.dk .bg_img .login1 .home1{
+	width: 306px;
+	height: 192px;
+	padding: 30px 20px;
+}
+.dk .bg_img .login1 .home1 .name1,.name2{
+	width:304px;
+	height: 38px;
+	border: 1px solid #bdbdbd; 
+	display:inline-block;
+	margin-bottom: 20px;
+}
+.dk .bg_img .login1 .home1 .name1 .tp1{
+	width: 38px;
+	height:38px;
+	background: url(../img/enter/pwd-icons-new.png) 0 0 no-repeat;
+	display:inline-block;
+	border-right:1px solid #bdbdbd ;
+	
+}
+.dk .bg_img .login1 .home1 .name2 .tp2{
+	width: 38px;
+	height:38px;
+	background: url(../img/enter/pwd-icons-new.png) -48px 0 no-repeat;
+	display:inline-block;
+	border-right:1px solid #bdbdbd ;
+}
+.dk .bg_img .login1 .home1 .name1 .inp1,.inp2{
+	width:260px;
+	height:38px;
+	border: none;
+	outline: none;
+	position: relative;
+    top: -15px;
+}
+.dk .bg_img .login1 .home1 .span1 span{
+	text-align: right;
+	float: right;
+	width: 306px;
+	height: 18px;
+	font-size: 12px;
+}
+.dk .bg_img .login1 .home1 .dl{
+	width: 304px;
+	height: 33px;
+	border: 1px solid #e85356;
+	background: #e85356;
+	font-size: 20px;
+	
+	display: inline-block;
+	line-height: 33px;
+	text-align: center;
+	margin-top: 15px;
+}
+.dk .bg_img .login1 .home1 .dl a{
+	color: white;
+} 
+.dk .bg_img .login1 .applogo{
+	width:306px;
+	height:50px;
+	padding: 0 20px;
+	border-top: 1px solid #bdbdbd;
+	line-height: 50px;
+}
+.dk .bg_img .login1 .applogo .qq .qw{
+	background: url(../img/enter/QQ-weixin.png) 0 0 no-repeat;
+	width: 19px;
+	height: 18px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+.dk .bg_img .login1 .applogo .qq,.wx span{
+	font-size: 12px;
+}
+.dk .bg_img .login1 .applogo .wx .wq{
+	background: url(../img/enter/QQ-weixin.png) -19px 0 no-repeat;
+	width: 19px;
+	height: 18px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+.dk .bg_img .login1 .applogo .ljzc{
+	float: right;
+}
+.dk .bg_img .login1 .applogo .ljzc .jt{
+	background: url(../img/enter/pwd-icons-new.png) -104px -75px no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+.dk .bg_img .login1 .applogo .ljzc span{
+	color: red;
+	font-size: 14px;
+}
+.navigation{
+	color: #666;
+	text-align: center;
+}
+.navigation a{
+	font-size: 12px;
+	display: inline-block;
+	padding: 0 7px;
+	
+}
+.copyright{
+	color: #666;
+	text-align: center;
+	padding: 10px 0; 
+	font-size: 12px;
+}
+/*LOGO over*/

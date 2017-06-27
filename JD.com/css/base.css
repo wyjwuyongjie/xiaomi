@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.x{
+	width:1190px;
+	margin:0 auto;
+}
+.z{
+	width: 100%;
+}
+.l{
+	width: 990px;
+	margin: 0 auto;
+}
+.k{
+	width: 1210px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+body{
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}

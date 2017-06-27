@@ -1,0 +1,489 @@
+/*京东个人信息*/
+body{
+	font-size: 12px;
+	background-color: #f5f5f5;
+}
+#bigBox .Bbox1 .person_inf .pi_1{
+	text-align: right;
+	margin-bottom: 10px;
+}
+#bigBox .Bbox1 .person_inf b{
+	padding: 0 10px;
+}
+#bigBox .Bbox1 .person_inf .inf_t1{
+	background: url(../img/myIndex/userinfo-bg.png) right top repeat-y #fff;
+    padding: 15px 20px 15px 0;
+    margin-bottom: 10px;
+    height: 150px;
+    border-radius: 86px 0 0 86px;
+  
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx{
+	float:left;
+	width: 319px;
+	position: relative;
+	
+	padding:22px 0;
+}
+.left_bt{
+	margin: 0 10px 0 16px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: relative;
+	
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx img{
+	position: relative;
+	
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx .left_tb{
+	background:url(../img/myIndex/myjd-bg.png) 0 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx .left_p1{
+	float:left;
+	width: 188px;
+	position: relative;
+	z-index: :;;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx  .left_name{
+	margin-bottom: 5px;
+}
+.left_name a{
+	color: #000;
+	font-size: 16px;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx  .left_manplus{
+	margin-bottom: 10px;
+	height: 18px;
+	line-height: 18px;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx  .left_manplus a.man1{
+	background: url(../img/myIndex/rank2014.gif);
+	display: inline-block;
+	margin-right: 5px;
+	height: 17px;
+	width: 17px;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx  .left_manplus a,img{
+	vertical-align: middle;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .left_tx .ac_security .ac_rank{
+    background: url(//misc.360buyimg.com/user/myjd-2015/widget/userinfo/i/safe-rank2015.png) no-repeat 0 0;
+    float: left;
+    height: 14px;
+    line-height: 0;
+    overflow: hidden;
+    width: 50px;
+    margin: 3px 6px 2px 0;
+    }
+    #bigBox .Bbox1 .person_inf .inf_t1 .left_tx  .mymedal{
+    	margin-top: 10px;
+    	
+    }
+    /*个人信息*/
+    /*待处理*/
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed{
+	width: 750px;
+	padding-top: 5px;
+	float: left;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed .user_pro{
+	margin: 6px 0 0 50px;
+	width: 210px;
+	float: left;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed .user_pro li{
+	width: 105px;
+	float: left;
+	margin-bottom: 10px;
+	height: 59px;
+	color: #444;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed .user_pro li i.t1{
+	background: url(../img/myIndex/ucount-icon.png) 0 0 no-repeat;
+	width: 40px;
+	height:40px;
+	display:block;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed .user_pro li i.t2{
+	background: url(../img/myIndex/ucount-icon.png) 0 -50px no-repeat;
+	width: 40px;
+	height:40px;
+	display:block;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed .user_pro li i.t3{
+	background: url(../img/myIndex/ucount-icon.png) 0 -100px no-repeat;
+	width: 40px;
+	height:40px;
+	display:block;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed .user_pro li i.t4{
+	background: url(../img/myIndex/ucount-icon.png) 0 -150px no-repeat;
+	width: 40px;
+	height:40px;
+	display:block;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .tb_processed .user_pro strong{
+	color: #c91523;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .right_money{
+	width: 490px;
+	padding: 10px 0;
+	background: #f5f5f5;
+	float: left;
+	color: #666;line-height: 22px;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .right_money .money_l{
+	padding-left: 20px;
+	width: 129px;
+	border-right: 1px dotted #ccc;
+	float: left;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .right_money .money_m{
+	padding-left: 10px;
+	width: 120px;
+	border-right:1px dotted #CCCCCC;
+	float: left;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .right_money .money_m div{
+	padding-left: 10px;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .right_money .money_m span{
+	border-radius: 8px;
+    border: 1px solid #e4393c;
+    color: #e4393c;
+    padding: 0 15px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#bigBox .Bbox1 .person_inf .inf_t1 .right_inf .right_money .money_r{
+	padding-left:20px ;
+	float: left;
+}
+.right_money a:hover{
+	color: red;
+}
+    /*待处理over*/
+  
+   /*我的订单*/
+ #bigBox .Bbox1  .mybooking1{
+ 	width: 750px;
+ 	float: left;
+ 	background: #fff;
+ 	margin-bottom:20px;
+ 	padding: 10px;
+ }
+ #bigBox .Bbox1  .mybooking1 .mybook_p{
+	padding: 10px;
+	display: block; 
+  }
+ #bigBox .Bbox1  .mybooking1 .mybook_p a{
+ 	color: #666;
+ 	float: right;
+ 	line-height: 24px;
+ 	}
+ #bigBox .Bbox1  .mybooking1 .buysome1{
+ 	color: #999;
+ 	text-align: center;
+ 	margin: 60px 0 90px; 
+}
+ #bigBox .Bbox1  .mybooking1 .buysome1 i{
+ 	background: url(../img/myIndex/nocont-icons.png);
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	margin-right: 10px;
+}
+   /*我的订单over*/
+  /*右边栏*/
+  #bigBox .Bbox1 .right_all{
+  	width: 300px;
+  	float: right;
+  	height: 1177px;
+  	color: #FFFFFF;
+  }
+  #bigBox .Bbox1 .right_all .right_recom{
+  	width: 280px;
+  	height: 380px;
+  	padding: 10px;
+  	background-color: #fff;
+  	margin-bottom: 20px;
+  	background-color: #fff;
+  }
+  #bigBox .Bbox1 .right_all .right_recom ul.u1{
+  	padding-bottom: 10px;
+  	height: 58px;
+  	}
+  #bigBox .Bbox1 .right_all .JD_menbers,.fina_menbers{
+  	width: 134px;
+  	padding: 8px 0;
+  	height: 42px;
+  	text-align: center;	
+	float: left;
+	
+  }
+  #bigBox .Bbox1 .right_all .JD_menbers a,.fina_menbers a{
+	width: 124px;
+	height: 42px;
+  	background-color: rgb(255,136,121);
+	float: left;
+	border-radius:42px;
+}  	
+  
+  #bigBox .Bbox1 .right_all  .fore2{
+  	width: 42px;
+  	height: 42px;
+  	background-color: #ff7867;
+  	border-radius:42px;
+  	position: absolute;
+	z-index: 1;
+	line-height: 42px;
+  }
+  #bigBox .Bbox1 .right_all  .fore1{
+  	position: relative;
+  	z-index: 2;
+  	font-size: 14px;
+  	line-height: 42px;
+  	
+  }
+  #bigBox .Bbox1 .right_all .u2 .rr1{
+  	margin:0 9px 10px 0;
+  	width: 125px;
+  	height: 128px;
+	background-color: #f5f5f5;
+	text-align: center;
+	line-height: 20px;
+	float: left;
+  }
+  #bigBox .Bbox1 .right_all .u2 .rr1 a{
+  
+  	color: #333;
+  }
+  #bigBox .Bbox1 .right_all .right_service{
+  	width: 280px;
+  	height: 208px;
+  	padding: 10px;
+  	margin-bottom: 20px;
+  	background-color:#fff ;
+  	color: #666;
+  } 
+  #bigBox .Bbox1 .right_all .right_service ul li{
+  border: 1px solid #e9eaec;
+  width: 63px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  float: left;
+  border-left: 0;
+  }
+  #bigBox .Bbox1 .right_all .right_service ul li.ser_red1{
+  	border: 1px solid #e9eaec;
+  	border-bottom:0 ;
+  	color: #E4393C;
+  	font-weight: 800;
+  	
+  	}
+ #bigBox .Bbox1 .right_all .right_service .ser_four1{
+ 	float: left;
+ 	text-align: center;
+ 	padding: 10px;
+ 	line-height: 20px;
+ }
+ #bigBox .Bbox1 .right_all .right_service .ser_four1 .four_1{
+ 	float: left;
+ 	padding: 5px;
+}  
+ #bigBox .Bbox1 .right_all .right_service .ser_four1 .four_111{
+ 	float: left;
+ 	text-align: center;
+ 	padding: 5px 10px;
+ 	width: 200px;
+ 	}
+ #bigBox .Bbox1 .right_all .right_service .ser_four1 .four_111 input{
+ 	background-color: #e4393c;
+ 	color: #FFFFFF;
+ 	padding: 2px 10px;
+ 	border: 1px solid #e4393c;
+ 	border-radius:3px ;
+ 	}
+ #bigBox .Bbox1 .right_all .myfootprice{
+ 	height: 225px;
+ 	width: 280px;
+ 	padding: 10px;
+ 	color: #666;
+ 	margin-bottom: 20px;
+ 	background: url(../img/myIndex/history-bg.png) bottom center no-repeat #fff;
+ }
+ #bigBox .Bbox1 .right_all .myfootprice .myfoot{
+ 	padding: 10px;
+ 	width: 260px;
+ 	float: left;
+ 	}
+ #bigBox .Bbox1 .right_all .myfootprice .myfoot p{
+ 	float: left;
+ 	font-size: 16px;
+    font-weight: 800;
+ 	}
+ #bigBox .Bbox1 .right_all .myfootprice .myfoot span{
+ 	float: right;
+ 	line-height: 24px;
+ 	}
+ #bigBox .Bbox1 .right_all .myfootprice .foot_dog{
+	width: 280px;
+	height: 185px;
+	position: relative;
+	float: left;
+} 
+ #bigBox .Bbox1 .right_all .myfootprice .foot_dog p{
+ 	width: 168px;
+ 	height: 85px;
+ 	margin: 40px auto;
+ 	}
+ #bigBox .Bbox1 .right_all .myfootprice .foot_dog i{
+ 	background: url(../img/myIndex/icon-history.png) no-repeat;
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 60px;
+ 	height: 54px;
+ 	width: 200px;
+ 	}
+ #bigBox .Bbox1 .right_all .right_ex-recom{
+ 	width: 280px;
+ 	height: 224px;
+ 	background: url(../img/myIndex/recmd-bg.png);
+ 	padding: 10px;
+ 	}
+ #bigBox .Bbox1 .right_all .right_ex-recom p{
+ 	font-size: 16px;
+ 	font-weight: 900;
+ 	padding: 10px;
+ 	color: #333;
+ 	}
+ #bigBox .Bbox1 .right_all .right_ex-recom .ex-icon{
+ 	background: url(../img/myIndex/recmd-noinfo-bg.png) center 0 no-repeat;
+ 	text-align: center;
+ 	display: block;
+ 	width: 280px;
+ 	height: 184px;
+ 	}
+ #bigBox .Bbox1 .right_all .right_ex-recom .djsz{
+ 	text-align: center;
+ 	padding-bottom:20px;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	}
+ #bigBox .Bbox1 .right_all .right_ex-recom .djsz a{
+ 	background: #45c499;
+ 	color: #fff;
+ 	font-weight: 800;
+ 	padding: 7px 15px;
+ 	border-radius: 5px;
+ 	}
+ 	
+  /*右边栏over*/
+/*买什么*/
+#bigBox .Bbox1 .buysome{
+	width: 750px;
+	padding: 10px;
+	float: left;
+	background-color: #fff;
+}
+#bigBox .Bbox1 .buysome .buysome_p1{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 10px;
+}
+#bigBox .Bbox1 .buysome .buysome_p1 span{
+	float: right;
+	font-size: 12px;
+	font-weight: 400;
+}
+#bigBox .Bbox1 .buysome ul{
+	width: 3000px;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1{
+	width: 374px;
+	height: 247px;
+	float: left;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11{
+	width: 334px;
+	height: 221px;
+	padding: 8px 9px 16px;
+	border: 1px solid #bdbdbd;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 p{
+	font-size: 16px;
+	font-weight: 900;
+	color: #333;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 .Tman {
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 .Tman i{
+	background: url(../img/myIndex/sprite-icon.png) -50px 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-top: 4px;
+	margin-right: 5px;
+	display: inline-block;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 .Tman .shop_t{
+	float:right ;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 .Tman .shop_t a{
+	margin-left:5px ;
+	border: 1px solid #ccc;
+	padding: 2px 10px;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 .Tman a i.T1{
+	background: url(../img/myIndex/sprite-icon.png) 0 -98px no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-top: 4px;
+	margin-right: 5px;
+	display: inline-block;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 .Tman a i.T2{
+	background: url(../img/myIndex/sprite-icon.png) -40px -56px no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-top: 4px;
+	margin-right: 5px;
+	display: inline-block;
+}
+#bigBox .Bbox1 .buysome ul li.shop_re1 .shop_11 .shop-t4{
+	float: left;
+	width: 162px;
+	height: 172px;
+	
+}
+.li26{
+	width: 72px;
+	height: 72px;
+	margin: 0 10px 10px 0;
+	float: left;
+	border: 1px solid #ccc;
+	color: #666;
+	font-weight: 600;
+	text-align: center;
+}
+.li26 span{
+	
+	font-size: 30px;
+	width: 72px;
+	height: 72px;
+	line-height: 72px;
+}
+/*买什么over*/
+/*京东个人信息over*/

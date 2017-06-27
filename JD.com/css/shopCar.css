@@ -1,0 +1,351 @@
+li{
+	list-style-type: none;
+}
+/*顶部信息栏*/
+#myinformation{
+	width:100%;
+	background: #f1f1f1;
+}
+#myinformation .top_inf{
+	height: 30px;
+	line-height: 30px;
+	color: #666;
+}
+#myinformation .top_inf .top_pos{
+	width: 85px;
+	height: 30px;
+	float: left;
+	padding: 0 25px 0 10px;
+}
+#myinformation .top_inf .top_pos .pos1{
+	padding-right:5px ;
+	font-size: 12px;
+	height: 30px;
+	float: left;
+}
+#myinformation .top_inf  b.tp1{
+	height: 15px;
+	width: 15px;
+	overflow: hidden;
+	float: right;
+	color: #6A6A6A;
+	position: relative;
+	top: 5px;
+	background: url(../img/enter/icon.png) 0 -150px no-repeat;
+}
+#myinformation .top_inf .information{
+	color: #666666;
+	font-size: 12px;float:right;	
+}
+#myinformation .top_inf .information li{
+	display: inline-block;
+	padding:0 5px;
+}
+#myinformation .top_inf .information li a{
+	color: #666;
+}
+#myinformation .top_inf .information li .iphone1{
+	background: url(../img/myinformation/jd2015img.png) no-repeat;
+	width: 15px;
+	height: 20px;
+	float: left;
+	position: relative;
+	top: 5px;
+	padding-right:5px;
+	
+}
+#myinformation .top_inf .information li .PLUS{
+	background: #d7d4cb url(../img/myinformation/user-plus-status.png) 0 -68px no-repeat;
+	width: 38px;
+	height: 16px;
+   display: inline-block;
+   position: relative;
+   top: 3px;
+}
+/*顶部信息栏over*/
+/*logo*/
+#JD-shopCar{
+	padding: 15px 0 10px 0;
+	height: 60px;
+}
+#JD-shopCar .logo-2017{
+	position: relative;
+	width: 270px;
+	float: left;
+
+}
+#JD-shopCar .logo-2017 .logo-l{
+	background:url(../img/购物车/logo-201305.png) 0 0 no-repeat ;
+	    display: block;
+    width: 270px;
+    height: 60px;
+   
+}
+#JD-shopCar .logo-2017 .myshopcar1{
+	background: url(../img/购物车/cart-icon.png) #fff no-repeat;
+	position:absolute;
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 100px;
+	top: 10px;
+	right: 0;
+}
+#JD-shopCar .right_service1{
+	float: right;
+    border: 2px solid #c91623;
+    background: #c91623;
+    height: 24px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#JD-shopCar .right_service1 input.i-text{
+	border: 0;
+    height: 18px;
+    line-height: 18px;
+    width: 260px;
+    padding: 3px 5px;
+}
+#JD-shopCar .right_service1 input.button{
+    display: inline-block;
+    vertical-align: top;
+    width: 48px;
+    height: 24px;
+    background: #c91623;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+}
+/*logo*/
+/*购物车内容*/
+#shop-content{
+	width:100%;
+}
+#shop-content .content{
+	height: 98px;
+	padding: 80px 0 120px 0;
+	
+}
+#shop-content .content i{
+	background: url(../img/购物车/no-login-icon.png) 250px 22px no-repeat;
+	float: left;
+	padding-left: 341px;
+	height: 98px;
+}
+#shop-content .content span{
+	height: 20px;
+	line-height:20px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+#shop-content .content .nosomething{
+	padding-top: 25px ;
+	float: left;
+}
+
+/*购物车内容over*/
+/*猜你喜欢*/
+.record{
+	color: #666;
+	margin-bottom: 10px;
+}
+.record a{
+	display: inline-block;
+    margin-right: 35px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+.record .record-on{
+    color: #e4393c;
+    font-weight: 700;
+    border-color: #e4393c;
+}	
+.shop-r1{
+	height: 326px;
+}
+.shop-r1 li{
+	border: 1px dashed #ccc;
+	float: left;
+	text-align: center;
+	width: 245px;
+}
+.shop-r1 .ri-11 div a{
+	width: 185px;
+	height: 32px;
+	overflow: hidden;
+	display: block;
+}
+.shop-r1 .ri-11{
+	padding: 20px;
+}
+.shop-r1 .ri-11 span{
+	color: red;
+	font-size: 14px;
+	display: block;
+}
+.shop-r1 .ri-11 a.push-shop{
+	border: 1px solid #999;
+	padding: 0 20px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 3px;
+	display: inline-block;
+}
+.shop-r1 .ri-11 a.push-shop:hover{
+	background: #e4393c;
+	color: #fff;
+	border: 1px solid #e4393c;
+}
+.shop-r1 .ri-11 a.push-shop:hover b{
+	background: url(../img/购物车/addtocart-icons.png) -29px -57px;
+}
+.shop-r1 .ri-11 a.push-shop b{
+	background: url(../img/购物车/addtocart-icons.png);
+	display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    background-position: 0 -57px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    vertical-align: middle;
+}
+/*猜你喜欢over*/
+/*页尾*/
+#lastone{
+	width: 100%;
+}
+#lastone .lasttop{
+	
+	height: 54px;
+	padding: 20px 0;
+	margin-bottom: 10px;
+	background-color: #f5f5f5;
+
+}
+#lastone .lasttop .duo{
+	width: 245px;
+	height: 54px;
+	display: inline-block;
+	float: left;
+}
+#lastone .lasttop .duo .duo1{
+	width: 220px;
+	height: 42px;
+	margin: 0 36px;
+	
+}
+#lastone .lasttop .duo .duo1 .duo2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .lasttop .duo .duo1 .duo3{
+	font-size: 18px;
+	height: 42px;
+	line-height: 42px;
+	font-weight: 600;
+	color:#666666
+	
+}
+#lastone .lasttop .duo .duo1 .kuai2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) 0 -43px no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .lasttop .duo .duo1 .hao2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) 0 -86px no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .lasttop .duo .duo1 .sheng2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) 0 -129px no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .last{
+	height: 160px;
+	padding: 20px 0;
+	margin: 0 auto;
+	background-color: #fff;
+}
+#lastone .last div{
+	width: 222px;
+	height: 159px;
+	float: left;
+	
+}
+#lastone .last div.five{
+	width: 100px;
+}
+#lastone .last div h5{
+	color: #666666;
+	padding-bottom: 10px;
+}
+#lastone .last div ul{
+	font-size:10px;
+	padding-top:10px;
+	color: #666666;
+}
+#lastone .last div ul li{
+	padding-bottom: 5px;
+}
+#lastone .last div ul li a:hover{
+	color: brown;
+}
+#lastone .last .city{
+	width: 200px;
+	height: 150px;
+}
+#lastone .last .city .p13{
+	padding: 20px 10px 0;
+	width: 180px;
+	height: 54px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#lastone .last .city .p14{
+	font-size: 10px;
+	color: #666666;
+	float: right;
+}
+#lastone .law{
+	height: 145px;
+	padding:20px 0 30px ;
+	font-size: 12px;
+	color: #666;
+	border-top: 1px solid #ccc;
+	 text-align: center;	
+}
+#lastone .law .lawtop {
+  
+}
+#lastone .law .lawtop a{
+	padding:0 2px;
+}
+#lastone .law .lawinfor{
+	margin: 10px 0;
+}
+#lastone .law .lawinfor img{
+	position: relative;
+	top:3px;
+	
+} 
+#lastone .law .lawdown{
+	height:32px;
+}
+#lastone .law .lawdown a{
+	margin: 0 5px;
+}
+/*页尾over*/
+/*页尾over*/

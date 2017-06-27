@@ -1,0 +1,695 @@
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+/*顶部信息栏*/
+#myinformation{
+	width:100%;
+	background: #f1f1f1;
+}
+#myinformation .top_inf{
+	height: 30px;
+	line-height: 30px;
+}
+#myinformation .top_inf .top_pos{
+	width: 85px;
+	height: 30px;
+	float: left;
+	padding: 0 25px 0 10px;
+}
+#myinformation .top_inf .top_pos .pos1{
+	padding-right:5px ;
+	font-size: 12px;
+	height: 30px;
+	float: left;
+}
+#myinformation .top_inf  b.tp1{
+	height: 15px;
+	width: 15px;
+	overflow: hidden;
+	float: right;
+	color: #6A6A6A;
+	position: relative;
+	top: 5px;
+	background: url(../img/enter/icon.png) 0 -150px no-repeat;
+}
+#myinformation .top_inf .information{
+
+	color: #666666;
+	font-size: 12px;float:right;	
+}
+#myinformation .top_inf .information li{
+	display: inline-block;
+	padding:0 5px;
+}
+#myinformation .top_inf .information li a{
+	color: #666;
+}
+#myinformation .top_inf .information li .iphone1{
+	background: url(../img/myinformation/jd2015img.png) no-repeat;
+	width: 15px;
+	height: 20px;
+	float: left;
+	position: relative;
+	top: 5px;
+	padding-right:5px;
+	
+}
+#myinformation .top_inf .information li .PLUS{
+	background: #d7d4cb url(../img/myinformation/user-plus-status.png) 0 -68px no-repeat;
+	width: 38px;
+	height: 16px;
+   display: inline-block;
+   position: relative;
+   top: 3px;
+}
+/*顶部信息栏over*/
+/*Logo、搜索购物车*/
+#Logo_account{
+	width: 100%;
+	background: #e45050;;
+}
+.LA{
+	height: 80px;
+}
+#Logo_account .logo_dog{
+	width: 272px;
+	height: 80px;
+	float: left;
+	color: white;
+}
+#Logo_account .logo_dog img{
+	margin-right: 10px;
+	float: left;	
+}
+#Logo_account .logo_dog .BM{
+	
+	height: 22px;
+	margin: 15px 0 0 6px;
+	float: left;
+	font-size: 20px;
+	
+}
+#Logo_account .logo_dog .MM{
+	float: left;
+	color:#ffb2b2;
+	font-size: 12px;
+	margin-top:10px ;
+	border: 1px solid #ffb2b2;
+	border-radius: 10px;
+	height: 18px;
+	line-height: 18px;
+	width: 72px;
+	padding:0 10px;
+	 
+}
+#Logo_account .systemoptions{
+	width: 342px;
+	height: 36px;
+	padding: 22px 0;
+	margin-left: 30px;
+	float: left;
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+}
+#Logo_account .systemoptions .so_re1{
+	width: 342px;
+	height: 36px;
+}
+#Logo_account .systemoptions .so_re1 li{
+	display: inline-block;
+}
+#Logo_account .systemoptions .so_re1 li a{
+	color: white;
+	margin-right:20px;
+}
+#Logo_account .systemoptions .so_re1 li .sr11{
+	padding:9px 16px;	
+	width: 74px;
+	height: 18px;
+}
+#Logo_account .systemoptions .so_re1 li .sr12{
+	padding:9px 16px;
+	width: 56px;
+	height: 18px;
+}
+#Logo_account .systemoptions .so_re1 li .down1{
+	    background: url(../img/myinformation/icon.png) 0 -120px no-repeat;
+	    width: 9px;
+	    height: 6px;
+	    display: inline-block;
+	    overflow: hidden;
+        margin-left: 4px;
+        vertical-align: middle;
+}
+#Logo_account .LA .search_myshop{
+	width: 340px;
+	height: 61px;
+	margin-right: 5px;
+	float: right;
+}
+#Logo_account .LA .search_myshop .search_re1{
+	margin-top: 25px;
+	width: 186px;
+	height:36px;
+	float: left;
+}
+#Logo_account .LA .search_myshop .search_re1 input{
+	width: 120px;
+	height: 24px;
+	padding: 4px;
+	margin-bottom: 4px;
+	float: left;
+	border:none;
+	background: #FFFFFF;
+}
+#Logo_account .LA .search_myshop .search_re1 button{
+	width: 56px;
+	height: 32px;
+	padding:1px 6px;
+	float: left;
+	border:1px solid #FFFFFF;
+	background: #F7f7f7;
+}
+#Logo_account .LA .search_myshop .myshop_re1{
+	width: 141px;
+	height: 32px;
+	margin-top:25px;
+	text-align: center;
+	float: right;color: #666;
+	background: #f7f7f7;
+	position: relative;
+}
+#Logo_account .LA .search_myshop .myshop_re1 a{
+	line-height: 32px;
+	font-size: 12px;
+}
+#Logo_account .LA .search_myshop .myshop_re1 a:hover{
+	color: red;
+	
+}
+#Logo_account .LA .search_myshop .myshop_re1 .s1_left{
+	background: url(../img/myinformation/jd2015img.png) 0 -58px no-repeat;
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	position: relative;
+	top: 3px;
+}
+#Logo_account .LA .search_myshop .myshop_re1 .s1_right{
+	margin-left: 10px;
+}
+#Logo_account .LA .search_myshop .myshop_re1 .s1_round{
+	width: 13px;
+	border: 1px solid #c81623;
+	border-radius: 7px 7px 7px 0;
+    background-color: #c81623;
+    position: absolute;
+    display: inline-block;
+    line-height: 12px;
+    font-size: 12px;
+    top: -4px;
+    left: 100px;
+    color: #fff;
+}
+/*Logo、搜索购物车*/
+/*主体*/
+#bigBox{
+	width: 100%;
+	background: #f5f5f5;
+	margin-bottom: 20px;
+}
+#bigBox .bigBox_re{
+	
+	
+}
+/*左侧菜单*/
+#bigBox .bigBox_re .menu_left{
+	width: 100px;
+	height:1570px;
+	float: left;
+	margin-right:10px ;
+	padding:20px 0 0 10px;
+}
+#bigBox .bigBox_re .menu_left ul{
+	padding-bottom:15px;
+	font-size: 12px;
+}
+#bigBox .bigBox_re .menu_left ul li{
+	height: 24px;
+    line-height: 24px;
+    color: #666;
+}
+#bigBox .bigBox_re .menu_left ul .f11{
+	height: 28px;
+    line-height: 28px;
+    color: #333;
+    font-weight: 700;
+}
+#bigBox .bigBox_re .menu_left .imggame,.imgshop{
+	width:90px;
+	height: 80px;
+}
+/*左侧菜单over*/
+/*订单主体*/
+#bigBox .bigBox_re .Bbox1{
+	width: 1090px;
+	
+	padding: 20px 0 0 120px;
+}
+#bigBox .bigBox_re .Bbox1 .mybooking{
+	padding: 10px 20px 20px;
+	margin-bottom: 20px;
+	background: #fff;position: relative;
+}
+#bigBox .bigBox_re .Bbox1 .mybooking .mbp{
+	height: 20px;
+	line-height: 25px;
+	padding: 10px 0 0 0;
+	font-size: 12px;
+	font-weight: 700;
+	color: #666;
+}
+#bigBox .bigBox_re .Bbox1  .allbook{
+	height: 495px;
+	padding: 10px 20px;
+	background: #FFFFFF;
+	margin-bottom: 20px;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1{
+	height: 25px;
+	padding: 10px 0;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .book_re1{
+	float: left;
+	font-size: 12px;
+	color: #333;
+	vertical-align: middle;	
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .book_re1 li{
+margin: 0 20px 0 0;
+	display: inline-block;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .book_re1 .fore3{
+	border-bottom: 2px solid #E4393C;
+	color: #E4393C;
+	font-weight: 500px;
+	font-size: 13px;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .book_re1 .fore2{
+	padding: 0 20px 0 40px;
+	margin: 0 0 0 20px;
+	border-left:1px dotted #C5C5C5;
+	font-weight: 600;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .book_re1 li a:hover{
+	color:#E4393C;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1  .search_b1{
+	width: 274px;
+	height: 25px;
+	float: right;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1  .search_b1 input{
+	float: left;
+    width: 158px;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 5px 3px;
+    border: 1px solid #ccc;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .search_b1 .search_f11{
+	float: left;
+    width: 52px;
+    height: 23px;
+    line-height: 99em;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-left: 0;
+    text-align: center;
+    background: rgb(244,243,243);
+    color: #666666;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .search_b1 .search_f11 b{
+    left: 17px;
+    top: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 16px;
+    overflow: hidden;
+    background: url(../img/myinformation/order-icons.png) -8px -58px no-repeat;
+    float: left;
+    position: relative;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .search_b1  .s_down{
+	width: 48px;
+	height: 18px;
+	padding: 2px 0 3px 0;
+	border: 1px solid #ddd;
+	font-size: 12px;
+	float: left;
+	background: rgb(243,243,243);
+	text-align: center;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book1 .search_b1  .s_down b,.book2 b{
+	background: url(../img/myinformation/order-icons.png)  -37px -207px no-repeat;
+	display: inline-block;
+	width:7px;
+	height: 4px;
+	margin-left:5px;
+	position: relative;
+	top: -2px;
+}
+#bigBox .bigBox_re .Bbox1  .allbook .book2{
+	height: 34px;
+	background: #f5f5f5;
+	font-size: 12px;
+	line-height: 32px;
+	color: #666666;
+	
+}
+.book2 th.b12{
+	width: 110px;
+	float: left;
+}
+
+.book2 th.b11{
+	width: 589px;
+}
+.b11 .threemonth_b{
+	float:left;
+}
+.b11 .book_details{
+	float: left;
+	position: relative;
+	left: 250px;
+}
+/*订单主体*/
+/*主体over*/
+
+/*买什么*/
+#bigBox .bigBox_re .Bbox1 .buywhat{
+	height: 303px;
+	padding:10px;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+}#bigBox .bigBox_re .Bbox1 .buywhat .by_re{
+	padding:10px;
+	overflow: hidden;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .by_re h3{
+	float: left;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .by_re a{
+	color: #666;
+	font-size:12px;
+	float: right;
+	line-height: 25px;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .by_re a:hover{
+	color: #C81623;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1{
+	height: 263px;
+	padding: 0 10px;
+	position: relative;
+	overflow: hidden;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 li{
+	display: inline-block;
+	width: 374px;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 li .s11_a{
+	width: 334px;
+	padding: 8px 9px 16px;
+	border: 1px solid #f1f1f1;
+	overflow: hidden;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 li .s11_a .p11 a{
+	font-weight: 700;
+	font-size: 16px;
+    color: #666;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 li .s11_a .p12{
+    height: 24px;
+    font-size: 12px;
+    color: #333;
+    margin-bottom:10px;
+    
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 li .s11_a .p12 b{
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-right: 5px;
+    background: url(//misc.360buyimg.com/user/myjd/ordercenter/widget/m-album/i/sprite-icon.png) no-repeat -50px 0;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 li .s11_a img.B1{
+	float: left;
+	margin-right: 10px;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 li .s11_a .t11 a{
+	width: 74px;
+	height: 74px;
+	margin:0 5px 10px 0 ;
+	border: 1px solid #f1f1f1;
+	color: #666666;
+	text-align: center;
+	line-height: 74px;
+	font-weight: 800;
+	float: left;
+	font-size: 30px;
+}
+.t11 img{
+	width: 74px;
+	height: 74px;
+}
+.t11{
+	width: 164px;height: 160px;
+	float: left;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat .shop_1 .s11{
+	overflow: hidden;
+	height: 248px;
+	width: 3740px;
+	padding-top:5px ;
+	position: absolute;
+}
+#bigBox .bigBox_re .Bbox1 .buywhat h3{
+	font-weight: 600;
+	font-size: 16px;
+}
+/*买什么over*/
+
+/*猜你喜欢*/
+#bigBox .bigBox_re .Bbox1 .ulike{
+	height: 321px;
+	padding: 10px 20px 20px;
+	margin-bottom:20px;
+	background: #FFFFFF;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .ulike_re1{
+	padding: 10px 0;
+	overflow: hidden;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .ulike_re1 .Number11{
+	float:right;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .ulike_re1 h5{
+	float:left;
+	line-height:24px ;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .ulike_re1 .Number11 a{
+	width: 24px;
+	height:24px ;
+	border:1px solid #CCCCCC;
+	margin-left: 10px;
+	border-radius:50%;
+	display: inline-block;
+	text-align: center;
+	line-height: 24px;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .ulike_re1 .Number11 a:hover{
+	background-color: #C81623;
+	color: #fff;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .shop_2{
+	height: 271px;
+	overflow: hidden;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .shop_2 ul li{
+	width: 160px;
+	height: 251px;
+	padding: 0 20px;
+	margin-bottom: 20px;
+	float: left;
+	font-size: 10px;
+	line-height:20px;
+}
+#bigBox .bigBox_re .Bbox1 .ulike .shop_2 ul li .intro1{
+    height: 38px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    color:#666;
+    
+}
+#bigBox .bigBox_re .Bbox1 .ulike .shop_2 ul li .money1{
+	color:#C81623;
+}
+/*猜你喜欢over*/
+/*广告条*/
+#bigBox .bigBox_re .Bbox1 .mod_adver{
+	height: 210px;
+	padding: 10px 0;
+
+	background-color: #fff;
+}
+#bigBox .bigBox_re .Bbox1 .mod_adver img{
+	margin-bottom: 10px;
+	float: left;
+}
+/*广告条over*/
+/*页尾*/
+#lastone{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#lastone .lasttop{
+	
+	height: 54px;
+	padding: 20px 0;
+	margin-bottom: 10px;
+	background-color: #f5f5f5;
+
+}
+#lastone .lasttop .duo{
+	width: 302px;
+	height: 54px;
+	display: inline-block;
+	float: left;
+}
+#lastone .lasttop .duo .duo1{
+	width: 225px;
+	height: 42px;
+	margin: 0 36px;
+	
+}
+#lastone .lasttop .duo .duo1 .duo2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .lasttop .duo .duo1 .duo3{
+	font-size: 18px;
+	height: 42px;
+	line-height: 42px;
+	font-weight: 600;
+	color:#666666
+	
+}
+#lastone .lasttop .duo .duo1 .kuai2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) 0 -43px no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .lasttop .duo .duo1 .hao2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) 0 -86px no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .lasttop .duo .duo1 .sheng2{
+	width: 36px;
+	height: 42px;
+	background: url(../img/ico_service.png) 0 -129px no-repeat;
+   float: left;
+   padding-right: 10px;
+}
+#lastone .last{
+	height: 160px;
+	padding: 20px 0;
+	margin: 0 auto;
+	width: 1210px;
+	background-color: #fff;
+}
+#lastone .last div{
+	width: 275px;
+	height: 159px;
+	float: left;
+	
+}
+#lastone .last div.five{
+	width: 100px;
+}
+#lastone .last div h5{
+	color: #666666;
+	padding-bottom: 10px;
+}
+#lastone .last div ul{
+	font-size:10px;
+	padding-top:10px;
+	color: #666666;
+}
+#lastone .last div ul li{
+	padding-bottom: 5px;
+}
+#lastone .last div ul li a:hover{
+	color: brown;
+}
+#lastone .last .city{
+	width: 200px;
+	height: 150px;
+}
+#lastone .last .city .p13{
+	padding: 20px 10px 0;
+	width: 180px;
+	height: 54px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#lastone .last .city .p14{
+	font-size: 10px;
+	color: #666666;
+	float: right;
+}
+#lastone .law{
+	height: 145px;
+	padding:20px 0 30px ;
+	font-size: 12px;
+	color: #666;
+	border-top: 1px solid #ccc;
+	 text-align: center;	
+}
+#lastone .law .lawtop {
+  
+}
+#lastone .law .lawtop a{
+	padding:0 5px;
+}
+#lastone .law .lawinfor{
+	margin: 10px 0;
+}
+#lastone .law .lawinfor img{
+	position: relative;
+	top:3px;
+	
+} 
+#lastone .law .lawdown{
+	height:32px;
+}
+#lastone .law .lawdown a{
+	margin: 0 5px;
+}
+/*页尾over*/
